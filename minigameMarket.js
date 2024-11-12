@@ -12,43 +12,43 @@ M.launch=function()
 		M.goods={
 			'Farm':{
 				name:'Cereals',
-				symbol:'CRL',
+				symbol:'LokiCRL',
 				company:'Old Mills',
 				desc:'<b>Old Mills</b> is a trusted staple of the grain industry. Finding their roots in humble pioneer farms centuries ago and honing their know-how ever since, the Old Mills organic crops have reached a standard of quality that even yours struggle to equal.',
 			},
 			'Mine':{
 				name:'Chocolate',
-				symbol:'CHC',
+				symbol:'LokiCHC',
 				company:'Cocoa Excavations',
 				desc:'<b>Cocoa Excavations</b> is an international chocolate mining venture whose extraction sites always seem, somehow, to pop up in war-torn countries. Their high-grade chocolate is renowned the world over and has even been marketed, to some success, as suitable gems for engagement rings.',
 			},
 			'Factory':{
 				name:'Butter',
-				symbol:'BTR',
+				symbol:'LokiBTR',
 				company:'Bovine Industries',
 				desc:'<b>Bovine Industries</b> is a formerly-agricultural conglomerate that now deals in mechanized dairy mass production. Whistleblowers have drawn attention to the way the milk cows employed by this company are treated, describing it as "not quite cruel or anything, but definitely unusual".',
 			},
 			'Bank':{
 				name:'Sugar',
-				symbol:'SUG',
+				symbol:'LokiSUG',
 				company:'Candy Trust',
 				desc:'The <b>Candy Trust</b> is a corporate banking group backed by, and specialized in, the trade of high-grade sugar. The origin of said sugar is legally protected by an armada of lawyers, though some suspect they secretly scrape it off of the bank bills coming in before processing it.',
 			},
 			'Temple':{
 				name:'Nuts',
-				symbol:'NUT',
+				symbol:'LokiNUT',
 				company:'Hazel Monastery',
 				desc:'Hidden between hills and fog somewhere, the secretive <b>Hazel Monastery</b> has, for centuries, maintained nut crops of the highest quality. The monastery nuts are carefully tended to, harvested and shelled by its monks, who are all required to take a vow of nut allergy as a lifelong test of piety.',
 			},
 			'Wizard tower':{
 				name:'Salt',
-				symbol:'SLT',
+				symbol:'LokiSLT',
 				company:'Wacky Reagants',
 				desc:'Salt is a versatile substance, with properties both mundane and mystical. This is why the bearded crackpots at <b>Wacky Reagants</b> have perfected the art of turning magic powder into salt, which is then sold to anyone promising to put it to good use - whether it be warding off banshees and ghouls or seasoning a Sunday roast.',
 			},
 			'Shipment':{
 				name:'Vanilla',
-				symbol:'VNL',
+				symbol:'LokiVNL',
 				company:'Cosmic Exports',
 				desc:'After the news broke of vanilla not being native to Earth, <b>Cosmic Exports</b> was the first company to discover its true origin planet - and has struck an exclusive deal with its tentacled inhabitants to ship its valuable, unadulterated beans all over the local quadrant.',
 			},
@@ -102,21 +102,21 @@ M.launch=function()
 			},
 			'Idleverse':{
 				name:'Subsidiaries',
-				symbol:'SBD',
+				symbol:'LokiSBD',
 				company:'Polyvalent Acquisitions',
 				desc:'Avoid the uncouth nastiness of mass layoffs and hostile takeovers by delegating the purchase, management, and eventual dissolution of other companies to the boys at <b>Polyvalent Acquisitions</b>. Let \'em deal with it!',
 			},
 			'Cortex baker':{
 				name:'Publicists',
-				symbol:'PBL',
+				symbol:'LokiPBL',
 				company:'Great Minds',
 				desc:'Get those juices flowing: from market research to advertising, the think tanks at <b>Great Minds</b> will lend their talents to the highest bidder. It\'s intellectual property on tap.',
 			},
-			'You':{
-				name:'%1',
-				symbol:'YOU',
-				company:'%1\'s Bakery',
-				desc:'That\'s right! Your transcendental business skills are so influential, so universally resounding, that you\'ve become a publicly traded good yourself - you\'re the best <b>%1\'s Bakery</b> has to offer. Don\'t disappoint your shareholders, there\'s a price on your head! Invest in yourself NOW!',
+			'Loki':{
+				name:'Loki',
+				symbol:'Loki',
+				company:'Loki\'s Bakery',
+				desc:'That\'s right! Loki\'s transcendental business skills are so influential, so universally resounding, that Loki has become a publicly traded good himself - he\'s the best <b>Loki\'s Bakery</b> has to offer. Don\'t disappoint his shareholders, there\'s a price on Loki\'s head! Invest in him NOW!',
 			},
 		};
 		M.goodsById=[];var n=0;
